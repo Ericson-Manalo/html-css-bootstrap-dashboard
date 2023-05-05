@@ -1,0 +1,21 @@
+.my_header{
+    height: 85px;
+    width: 100%;
+    background-color: red;
+}
+
+
+div.my_sidebar{
+    background-image: url("/img/sidebar-bg.png");
+    background-color: blue;
+}
+
+.my_main-side{
+    background-color: aqua;
+    height: calc(100vh - 85px);
+}
+
+
+/*Small 	sm 	≥576px
+Medium 	md 	≥768px
+Large 	lg 	≥992px*/
