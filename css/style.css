@@ -8,17 +8,12 @@
 div.my_sidebar{
     background-image: url("/img/sidebar-bg.png");
     background-color: blue;
+    height: calc(100vh - 85px);;
 }
 
 .my_main-side{
     background-color: aqua;
     height: calc(100vh - 85px);
-}
-
-@include media-breakpoint-up(sm) {
-    .fa-list{
-        display: none;
-    }
 }
 
 
