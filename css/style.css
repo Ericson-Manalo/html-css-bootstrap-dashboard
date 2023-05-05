@@ -15,6 +15,12 @@ div.my_sidebar{
     height: calc(100vh - 85px);
 }
 
+@include media-breakpoint-up(sm) {
+    .fa-list{
+        display: none;
+    }
+}
+
 
 /*Small 	sm 	≥576px
 Medium 	md 	≥768px
