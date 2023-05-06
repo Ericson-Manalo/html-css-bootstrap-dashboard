@@ -12,6 +12,11 @@ body{
     height: calc(100vh - 85px);
 }
 
+.my_mobile-logo{
+    width: 50px;
+    height: 50px;
+}
+
 .my_class-logo{
     width: 25px;
     height: 25px;
