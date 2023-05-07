@@ -22,15 +22,18 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-12 my_header">
-                    <div class="row h-100 align-content-center">
+                    <div class="row align-content-center">
                         <div class="col-2">
                             <img class="my_mobile-logo" src="img/mobile-logo.png" alt="Boolean logo">
                         </div>
 
 
                         <div class="col-8">
-                            <div class="w-100 bg-light">
-                                Prova a cercare: Lezioni di Laravel
+                            <div class="w-100 bg-light d-flex">
+                                <p class="align-items-center">
+                                    Prova a cercare: Lezioni di Laravel 
+                                </p>
+                                
                             </div>
                         </div>
 
@@ -109,291 +112,381 @@
                     <!--MAIN SECTION-->
                     <div class="col-11 my_main-side overflow-auto">
                         <div class="row">
-                            <div class="col-12 my_upper-main mb-3">
+                            <div class="col-12 my_upper-main mb-3 p-3">
+                                <div class="container">
+                                    <div class="row ">
+                                        <div class="col-12 col-md-4 order-md-3">
+                                            <div class="d-flex mb-2">
+                                                <p class="text-white mb-0 d-flex align-items-center p me-2">
+                                                    Nuovo studente
+                                                </p>
+                                                <button class="btn btn-* fs-5 text-white my_upper-btn mx-1 d-flex align-items-center" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                                                    +
+                                                </button>
+                                                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                                                <div class="offcanvas-header">
+                                                    <h5 id="offcanvasRightLabel">
+                                                        Inserisci un nuovo studente
+                                                    </h5>
+                                                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                                </div>
+                                                <div class="offcanvas-body">
+                                                    <form>
+                                                        <div class="mb-3">
+                                                            <label for="exampleInputName" class="form-label">Name</label>
+                                                            <input type="name" class="form-control" id="exampleInputName" aria-describedby="emailHelp">
+                                                        </div>
+                                                        <div class="mb-3">
+                                                            <label for="exampleInputPassword1" class="form-label">Password</label>
+                                                            <input type="password" class="form-control" id="exampleInputPassword1">
+                                                        </div>
+                                                        <div class="mb-3 form-check">
+                                                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                                            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                                                        </div>
+                                                        <button type="submit" class="btn btn-primary">Submit</button>
+                                                    </form>
+                                                </div>
+                                                </div>
+                                            </div>
+                                        </div>
 
+                                        <div class="col-12 col-md-4 mb-3 order-md-1">
+                                            <div class="d-flex align-items-center">
+                                                <h3 class="text-white me-2">
+                                                    Boolean
+                                                </h3>
+                                                <span class="badge rounded-pill bg-* my_blue-pillow">
+                                                    Piano blaze
+                                                </span>
+                                            </div>
+                                            <div>
+                                                <span class="badge rounded-pill bg-* my_blue-pillow">
+                                                    3 app
+                                                </span>
+                                                <span class="text-white">
+                                                    >>
+                                                </span>
+                                                <span class="badge rounded-pill bg-* my_blue-pillow">
+                                                    +
+                                                </span>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-12 text-white col-md-4 order-md-2">
+                                            <p class="mb-0">
+                                                Studenti online negli ultimi 30 minuti
+                                            </p>
+                                            <p class="fs-3">
+                                                125
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
 
                             <div class="col-12">
-                                <div class="row">
+                                <div class="row flex-row">
 
                                     <!--PROSSIME CLASSI-->
-                                    <div class="col-12 mb-3">
-                                        <div class="card">
-                                            <h2>
-                                                Prossime classi
-                                            </h2>
-                                            <table class="table">
-                                                <thead>
-                                                <tr>
-                                                    <th scope="col">
-                                                        Nome
-                                                    </th>
-                                                    <th class="d-none d-lg-block" scope="col">
-                                                        Data inizio
-                                                    </th>
-                                                    <th class="d-none d-lg-block" scope="col">
-                                                        ROI
-                                                    </th>
-                                                    <th scope="col">
-                                                        Stato
-                                                    </th>
-                                                    <th scope="col">
-                                                        Azioni
-                                                    </th>
-                                                </tr>
-                                                </thead>
-                                                <tbody>
-                                                <tr>
-                                                    <td>
-                                                        <img class="my_class-logo" src="img/class-avatar.jpg" alt="Class avatar logo">
-                                                        Classe 75
-                                                    </td>
-                                                    <td class="d-none d-lg-block">
-                                                        15 Feb 2021
-                                                    </td>
-                                                    <td class="d-none d-lg-block">
-                                                        20%
-                                                    </td>
-                                                    <td>
-                                                        <span class="bg-success text-white p-1 rounded">
-                                                            Done
-                                                        </span> 
-                                                    </td>
-                                                    <td>
-                                                        @mdo
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td>
-                                                        <img class="my_class-logo" src="img/class-avatar.jpg" alt="">
-                                                        Classe 76
-                                                    </td>
-                                                    <td class="d-none d-lg-block">
-                                                        16 Feb 2021
-                                                    </td>
-                                                    <td class="d-none d-lg-block">
-                                                        20%
-                                                    </td>
-                                                    <td>
-                                                        <span class="bg-success text-white p-1 rounded">
-                                                            Done
-                                                        </span> 
-                                                    </td>
-                                                    <td>
-                                                        @mdo
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td>
-                                                        <img class="my_class-logo" src="img/class-avatar.jpg" alt="">
-                                                        Classe 77
-                                                    </td>
-                                                    <td class="d-none d-lg-block">
-                                                        17 Feb 2021
-                                                    </td>
-                                                    <td class="d-none d-lg-block">
-                                                        20%
-                                                    </td>
-                                                    <td>
-                                                        <span class="bg-warning text-white p-1 rounded">
-                                                            process
-                                                        </span>
-                                                    </td>
-                                                    <td>
-                                                        @mdo
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td>
-                                                        <img class="my_class-logo" src="img/class-avatar.jpg" alt="">
-                                                        Classe 78
-                                                    </td>
-                                                    <td class="d-none d-lg-block">
-                                                        18 Feb 2021
-                                                    </td>
-                                                    <td class="d-none d-lg-block">
-                                                        20%
-                                                    </td>
-                                                    <td>
-                                                        <span class="bg-success text-white p-1 rounded">
-                                                            Done
-                                                        </span> 
-                                                    </td>
-                                                    <td>
-                                                        @mdo
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td>
-                                                        <img class="my_class-logo" src="img/class-avatar.jpg" alt="">
-                                                        Classe 79
-                                                    </td>
-                                                    <td class="d-none d-lg-block">
-                                                        19 Feb 2021
-                                                    </td>
-                                                    <td class="d-none d-lg-block">
-                                                        20%
-                                                    </td>
-                                                    <td>
-                                                        <span class="bg-danger text-white p-1 rounded">
-                                                            failed
-                                                        </span>
-                                                    </td>
-                                                    <td>
-                                                        @mdo
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td>
-                                                        <img class="my_class-logo" src="img/class-avatar.jpg" alt="">
-                                                        Classe 80
-                                                    </td>
-                                                    <td class="d-none d-lg-block">
-                                                        20 Feb 2021
-                                                    </td>
-                                                    <td class="d-none d-lg-block">
-                                                        20%
-                                                    </td>
-                                                    <td>
-                                                        <span class="bg-success text-white p-1 rounded">
-                                                            Done
-                                                        </span> 
-                                                    </td>
-                                                    <td>
-                                                        @mdo
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td>
-                                                        <img class="my_class-logo" src="img/class-avatar.jpg" alt="">
-                                                        Classe 81
-                                                    </td>
-                                                    <td class="d-none d-lg-block">
-                                                        21 Feb 2021
-                                                    </td>
-                                                    <td class="d-none d-lg-block">
-                                                        20%
-                                                    </td>
-                                                    <td>
-                                                        <span class="bg-danger text-white p-1 rounded">
-                                                            failed
-                                                        </span>
-                                                    </td>
-                                                    <td>
-                                                        @mdo
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td>
-                                                        <img class="my_class-logo" src="img/class-avatar.jpg" alt="">
-                                                        Classe 82
-                                                    </td>
-                                                    <td class="d-none d-lg-block">
-                                                        22 Feb 2021
-                                                    </td>
-                                                    <td class="d-none d-lg-block">
-                                                        20%
-                                                    </td>
-                                                    <td>
-                                                        <span class="bg-success text-white p-1 rounded">
-                                                            Done
-                                                        </span> 
-                                                    </td>
-                                                    <td>
-                                                        @mdo
-                                                    </td>
-                                                </tr>
-                                                </tbody>
-                                            </table>
-                                        </div>                          
-                                    </div>
-
-                                    <!--FAQ-->
-                                    <div class="card col-12 mb-3">
-                                        <div class="row">
-                                            <div class="card-header">
-                                                <h4>
-                                                    F.A.Q.
-                                                </h4>
-                                                
-                                            </div>
-                                            <ul class="list-group list-group-flush">
-                                            <li class="list-group-item">
-                                                Come aggiungere un nuovo studente?
-                                            </li>
-                                            <li class="list-group-item">
-                                                Come posso accedere alle informazioni del mio account?
-                                            </li>
-                                            <li class="list-group-item">
-                                                Posso usare questa dashbord da mobile?
-                                            </li>
-                                            </ul>
+                                    <div class="row m-auto">
+                                        <div class="col-12 mb-3 col-lg-9">
+                                            <div class="card">
+                                                <div class="card-header">
+                                                    <h2>
+                                                        Prossime classi
+                                                    </h2>
+                                                </div>
+                                                <table class="table">
+                                                    <thead>
+                                                    <tr>
+                                                        <th scope="col">
+                                                            Nome
+                                                        </th>
+                                                        <th class="" scope="col">
+                                                            Data inizio
+                                                        </th>
+                                                        <th class="" scope="col">
+                                                            ROI
+                                                        </th>
+                                                        <th scope="col">
+                                                            Stato
+                                                        </th>
+                                                        <th scope="col">
+                                                            Azioni
+                                                        </th>
+                                                    </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                    <tr>
+                                                        <td>
+                                                            <img class="my_class-logo" src="img/class-avatar.jpg" alt="Class avatar logo">
+                                                            Classe 75
+                                                        </td>
+                                                        <td class="">
+                                                            15 Feb 2021
+                                                        </td>
+                                                        <td class="">
+                                                            20%
+                                                        </td>
+                                                        <td>
+                                                            <span class="bg-success text-white p-1 rounded">
+                                                                Done
+                                                            </span> 
+                                                        </td>
+                                                        <td>
+                                                            @mdo
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <img class="my_class-logo" src="img/class-avatar.jpg" alt="">
+                                                            Classe 76
+                                                        </td>
+                                                        <td class="">
+                                                            16 Feb 2021
+                                                        </td>
+                                                        <td class="">
+                                                            20%
+                                                        </td>
+                                                        <td>
+                                                            <span class="bg-success text-white p-1 rounded">
+                                                                Done
+                                                            </span> 
+                                                        </td>
+                                                        <td>
+                                                            @mdo
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <img class="my_class-logo" src="img/class-avatar.jpg" alt="">
+                                                            Classe 77
+                                                        </td>
+                                                        <td class="">
+                                                            17 Feb 2021
+                                                        </td>
+                                                        <td class="">
+                                                            20%
+                                                        </td>
+                                                        <td>
+                                                            <span class="bg-warning text-white p-1 rounded">
+                                                                process
+                                                            </span>
+                                                        </td>
+                                                        <td>
+                                                            @mdo
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <img class="my_class-logo" src="img/class-avatar.jpg" alt="">
+                                                            Classe 78
+                                                        </td>
+                                                        <td class="">
+                                                            18 Feb 2021
+                                                        </td>
+                                                        <td class="">
+                                                            20%
+                                                        </td>
+                                                        <td>
+                                                            <span class="bg-success text-white p-1 rounded">
+                                                                Done
+                                                            </span> 
+                                                        </td>
+                                                        <td>
+                                                            @mdo
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <img class="my_class-logo" src="img/class-avatar.jpg" alt="">
+                                                            Classe 79
+                                                        </td>
+                                                        <td class="">
+                                                            19 Feb 2021
+                                                        </td>
+                                                        <td class="">
+                                                            20%
+                                                        </td>
+                                                        <td>
+                                                            <span class="bg-danger text-white p-1 rounded">
+                                                                failed
+                                                            </span>
+                                                        </td>
+                                                        <td>
+                                                            @mdo
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <img class="my_class-logo" src="img/class-avatar.jpg" alt="">
+                                                            Classe 80
+                                                        </td>
+                                                        <td class="">
+                                                            20 Feb 2021
+                                                        </td>
+                                                        <td class="">
+                                                            20%
+                                                        </td>
+                                                        <td>
+                                                            <span class="bg-success text-white p-1 rounded">
+                                                                Done
+                                                            </span> 
+                                                        </td>
+                                                        <td>
+                                                            @mdo
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <img class="my_class-logo" src="img/class-avatar.jpg" alt="">
+                                                            Classe 81
+                                                        </td>
+                                                        <td class="">
+                                                            21 Feb 2021
+                                                        </td>
+                                                        <td class="">
+                                                            20%
+                                                        </td>
+                                                        <td>
+                                                            <span class="bg-danger text-white p-1 rounded">
+                                                                failed
+                                                            </span>
+                                                        </td>
+                                                        <td>
+                                                            @mdo
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <img class="my_class-logo" src="img/class-avatar.jpg" alt="">
+                                                            Classe 82
+                                                        </td>
+                                                        <td class="">
+                                                            22 Feb 2021
+                                                        </td>
+                                                        <td class="">
+                                                            20%
+                                                        </td>
+                                                        <td>
+                                                            <span class="bg-success text-white p-1 rounded">
+                                                                Done
+                                                            </span> 
+                                                        </td>
+                                                        <td>
+                                                            @mdo
+                                                        </td>
+                                                    </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>                          
                                         </div>
-                                            
+
+                                        <!--FAQ-->
+                                        <div class="card col-12 mb-3 col-lg-9">
+                                            <div class="row">
+                                                <div class="card-header">
+                                                    <h4>
+                                                        F.A.Q.
+                                                    </h4>
+                                                    
+                                                </div>
+                                                <ul class="list-group list-group-flush">
+                                                <li class="list-group-item">
+                                                        <a class="btn btn-*" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                                            Come aggiungere un nuovo studente?
+                                                            <i class="fa-sharp fa-solid fa-angle-down"></i>
+                                                        </a>
+
+                                                        <div class="collapse" id="collapseExample">
+                                                            <p>
+                                                                Clicca sul + in alto nella sezione blu.
+                                                            </p>
+                                                        </div>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <a class="btn btn-*" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                                        Come posso accedere alle informazioni del mio account?
+                                                        <i class="fa-sharp fa-solid fa-angle-down"></i>
+                                                    </a>
+
+                                                    <div class="collapse" id="collapseExample">
+                                                        <p>
+                                                            Clicca sull'icona della campanella.
+                                                        </p>
+                                                    </div>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <a class="btn btn-*" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                                        Posso usare questa dashboard da mobile?
+                                                        <i class="fa-sharp fa-solid fa-angle-down"></i>
+                                                    </a>
+
+                                                    <div class="collapse" id="collapseExample">
+                                                        <p>
+                                                            Clicca sul + in alto nella sezione blu.
+                                                        </p>
+                                                    </div>
+                                                </li>
+                                                </ul>
+                                            </div>
+                                                
+                                        </div>
                                     </div>
 
 
                                     <!--TODO-->
-                                    <div class="card col-12 mb-3">
-                                    <div class="card-header">
-                                        <h4>
-                                            Featured
-                                        </h4>
-                                    </div>
-                                    <ul class="list-group list-group-flush">
-                                        <li class="list-group-item">
-                                            <div class="form-check">
-                                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                                                <label class="form-check-label" for="flexCheckDefault">
-                                                    Kickoff nuove classi
-                                                </label>
-                                            </div>
-                                        </li>
-                                        <li class="list-group-item">
-                                            <div class="form-check">
-                                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                                                <label class="form-check-label" for="flexCheckDefault">
-                                                    Lezioni di Bootstrap 5 in classe #75
-                                                </label>
-                                            </div>
-                                        </li>
-                                        <li class="list-group-item">
-                                            <div class="form-check">
-                                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                                                <label class="form-check-label" for="flexCheckDefault">
-                                                    Controllare username github studenti
-                                                </label>
-                                            </div>
-                                        </li>
-                                    </ul>
-                                    </div>
-
-                                    <!--STATS-->
-                                    <div class="card col-12">
-                                        <img src="img/stats.jpeg" class="card-img-top" alt="Stats image">
-                                        <div class="card-body">
-                                            <h5 class="card-title">
-                                                Utenti attivi
-                                            </h5>
-                                            <p class="card-text">
-                                                Lista degli utenti attivi in piattaforma nell'ultimo mese
-                                            </p>
+                                    <div class="row m-auto flex-column">
+                                        <div class="card col-12 mb-3 col-lg-3">
+                                        <div class="card-header">
+                                            <h4>
+                                                Todo
+                                            </h4>
                                         </div>
-                                        <ul class="list-group list-group-flush">
+                                        <ul class="list-group mt-2">
                                             <li class="list-group-item">
-                                                Gennaio: 1200
+                                                <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                                                Kickoff nuove classi 
                                             </li>
                                             <li class="list-group-item">
-                                                Febbraio: 800
+                                                <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                                                Lezioni di Bootstrap 5 in classe #75 
                                             </li>
                                             <li class="list-group-item">
-                                                Marzo: 1500
+                                                <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                                                Controllare username github studenti
                                             </li>
                                         </ul>
-                                        <div class="card-body">
-                                            <a href="#" class="card-link">
-                                                Visualizza report approfondito
-                                            </a>
+                                        </div>
+
+                                        <!--STATS-->
+                                        <div class="card col-12 col-lg-3">
+                                            <img src="img/stats.jpeg" class="card-img-top" alt="Stats image">
+                                            <div class="card-body">
+                                                <h5 class="card-title">
+                                                    Utenti attivi
+                                                </h5>
+                                                <p class="card-text">
+                                                    Lista degli utenti attivi in piattaforma nell'ultimo mese
+                                                </p>
+                                            </div>
+                                            <ul class="list-group list-group-flush">
+                                                <li class="list-group-item">
+                                                    Gennaio: 1200
+                                                </li>
+                                                <li class="list-group-item">
+                                                    Febbraio: 800
+                                                </li>
+                                                <li class="list-group-item">
+                                                    Marzo: 1500
+                                                </li>
+                                            </ul>
+                                            <div class="card-body">
+                                                <a href="#" class="card-link">
+                                                    Visualizza report approfondito
+                                                </a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
