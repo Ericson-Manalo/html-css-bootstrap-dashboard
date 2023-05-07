@@ -120,6 +120,8 @@
                                                 <p class="text-white mb-0 d-flex align-items-center p me-2">
                                                     Nuovo studente
                                                 </p>
+
+                                                <!--OFFCANVAS-->
                                                 <button class="btn btn-* fs-5 text-white my_upper-btn mx-1 d-flex align-items-center" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
                                                     +
                                                 </button>
@@ -280,7 +282,7 @@
                             </div>
 
                             <div class="col-12">
-                                <div class="row flex-row">
+                                <div class="row flex-column">
 
                                     <!--PROSSIME CLASSI-->
                                     <div class="row m-auto">
@@ -486,48 +488,55 @@
                                                     </h4>
                                                     
                                                 </div>
-                                                <ul class="list-group list-group-flush">
-                                                <li class="list-group-item">
-                                                        <a class="btn btn-*" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                                <div class="accordion my-2" id="accordionExample">
+                                                    <div class="accordion-item">
+                                                        <h2 class="accordion-header" id="headingOne">
+                                                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                                                             Come aggiungere un nuovo studente?
-                                                            <i class="fa-sharp fa-solid fa-angle-down"></i>
-                                                        </a>
-
-                                                        <div class="collapse" id="collapseExample">
+                                                        </button>
+                                                    </h2>
+                                                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                                        <div class="accordion-body">
                                                             <p>
                                                                 Clicca sul + in alto nella sezione blu.
                                                             </p>
                                                         </div>
-                                                </li>
-                                                <li class="list-group-item">
-                                                    <a class="btn btn-*" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
-                                                        Come posso accedere alle informazioni del mio account?
-                                                        <i class="fa-sharp fa-solid fa-angle-down"></i>
-                                                    </a>
-
-                                                    <div class="collapse" id="collapseExample">
-                                                        <p>
-                                                            Clicca sull'icona della campanella.
-                                                        </p>
                                                     </div>
-                                                </li>
-                                                <li class="list-group-item">
-                                                    <a class="btn btn-*" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
-                                                        Posso usare questa dashboard da mobile?
-                                                        <i class="fa-sharp fa-solid fa-angle-down"></i>
-                                                    </a>
-
-                                                    <div class="collapse" id="collapseExample">
-                                                        <p>
-                                                            Clicca sul + in alto nella sezione blu.
-                                                        </p>
                                                     </div>
-                                                </li>
-                                                </ul>
+                                                    <div class="accordion-item">
+                                                        <h2 class="accordion-header" id="headingTwo">
+                                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                                            Come posso accedere alle informazioni del mio account?
+                                                        </button>
+                                                        </h2>
+                                                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                                        <div class="accordion-body">
+                                                            <p>
+                                                                Clicca sull'icona della campanella.
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                    </div>
+                                                    <div class="accordion-item">
+                                                        <h2 class="accordion-header" id="headingThree">
+                                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                                            Come posso usare questa dashboard da mobile?
+                                                        </button>
+                                                        </h2>
+                                                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                                        <div class="accordion-body">
+                                                            <p>
+                                                                Clicca sull'icona della campanella.
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                </div>
                                             </div>
                                                 
                                         </div>
                                     </div>
+                                </div>
 
 
                                     <!--TODO-->
@@ -583,7 +592,6 @@
                                             </div>
                                         </div>
                                     </div>
-                                </div>
                             </div>
                         </div>
                     </div>
