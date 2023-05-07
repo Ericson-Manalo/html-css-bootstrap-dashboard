@@ -45,6 +45,13 @@ div.my_sidebar{
     width: 500px;
 }
 
+.my_trash-icon,
+.my_pen-icon{
+    padding: .4rem;
+    border: 1px solid #6c757d;
+    border-radius: 8px;
+}
+
 
 
 
