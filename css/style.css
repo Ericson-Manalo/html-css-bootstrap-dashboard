@@ -41,6 +41,10 @@ div.my_sidebar{
     height: 100vh;
 }
 
+#offcanvasRight{
+    width: 500px;
+}
+
 
 
 
