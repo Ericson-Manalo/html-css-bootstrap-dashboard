@@ -5,10 +5,11 @@ body{
 .my_header{
     width: 100%;
     background-color: #f8f9fa;
+    height: 70px;
 }
 
 .my_main-side{
-    height: 100vh;
+    height: calc(100vh - 70px);
 }
 
 .my_mobile-logo{
@@ -38,7 +39,7 @@ body{
 div.my_sidebar{
     background-image: url("/img/sidebar-bg.png");
     background-color: blue;
-    height: 100vh;
+    height: calc(100vh - 70px);
 }
 
 #offcanvasRight{
