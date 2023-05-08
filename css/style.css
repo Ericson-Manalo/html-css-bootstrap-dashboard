@@ -18,6 +18,27 @@ body{
     height: 50px;
 }
 
+.my_img-side{
+    width: 10%;
+}
+
+.my_searchbar{
+    background-color: #e5e5e5;
+    width: 70%;
+    border-radius: 10px;
+}
+
+.my_btn-side{
+    width: 20%;
+}
+
+.my_searchbar input{
+    background: transparent;
+    border: none;
+    width: 100%;
+    padding-left: 1rem;
+}
+
 .my_class-logo{
     width: 25px;
     height: 25px;
@@ -35,6 +56,10 @@ body{
     border: 1px solid white;
     width: 40px;
     height: 40px;
+}
+
+header nav{
+    background-color: white;
 }
 
 section.my_sidebar{
