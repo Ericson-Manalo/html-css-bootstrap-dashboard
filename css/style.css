@@ -10,6 +10,7 @@ body{
 
 .my_main-side{
     height: calc(100vh - 70px);
+    width: calc(100% - 70px);
 }
 
 .my_mobile-logo{
@@ -36,10 +37,11 @@ body{
     height: 40px;
 }
 
-div.my_sidebar{
+section.my_sidebar{
     background: url("/img/sidebar-bg.png");
     background-color: #051e34;
     height: calc(100vh - 70px);
+    width: 70px;
 }
 
 #offcanvasRight{
@@ -51,6 +53,19 @@ div.my_sidebar{
     padding: .4rem;
     border: 1px solid #6c757d;
     border-radius: 8px;
+}
+
+
+@media screen and (min-width: 768px ){
+    .my_main-side{
+        width: calc(100% - 110px);
+    }
+
+    section.my_sidebar{
+        width: 110px;
+    }
+
+
 }
 
 
