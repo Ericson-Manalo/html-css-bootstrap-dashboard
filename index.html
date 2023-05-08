@@ -73,547 +73,212 @@
                             <p class="d-none d-lg-block ms-1">
                                 Home
                             </p>
-                        </div>
-                                
-                        <div class="d-flex justify-content-center mb-3">
-                            <i class="fa-solid fa-chart-simple d-block fs-5"></i>
-                                <p class="d-none d-lg-block ms-1">
-                                    Stats
-                                </p>
-                            </div>
-                                
-                            <div class="d-flex justify-content-center">
-                                <i class="fa-solid fa-signal d-block fs-5"></i>
-                                <p class="d-none d-lg-block ms-1">
-                                    Signals
-                                </p>
-                            </div>
-                                
-                        </div>
-
-                        <div>
-                            <div class="d-flex justify-content-center">
-                                <i class="fa-solid fa-gear d-block fs-5"></i>
-                                <p class="d-none d-lg-block ms-1">
-                                    Admin
-                                </p>
-                            </div>    
-                        </div>
                     </div>
+                                
+                    <div class="d-flex justify-content-center mb-3">
+                        <i class="fa-solid fa-chart-simple d-block fs-5"></i>
+                            <p class="d-none d-lg-block ms-1">
+                                Stats
+                            </p>
+                    </div>
+                                
+                    <div class="d-flex justify-content-center">
+                        <i class="fa-solid fa-signal d-block fs-5"></i>
+                        <p class="d-none d-lg-block ms-1">
+                            Signals
+                        </p>
+                    </div>
+                                
+                </div>
+
+                <div>
+                    <div class="d-flex justify-content-center">
+                        <i class="fa-solid fa-gear d-block fs-5"></i>
+                        <p class="d-none d-lg-block ms-1">
+                            Admin
+                        </p>
+                    </div>    
+                </div>
+            </div>
         </section>
 
 
-                    <!--MAIN SECTION-->
-                    <div class="my_main-side overflow-auto">
-                        <div class="row">
-                            <div class="col-12 my_upper-main mb-3 p-3">
-                                <div class="container container-md">
-                                    <div class="row">
-                                        <div class="col-12 col-md-4 order-md-3">
-                                            <div class="d-flex mb-2">
-                                                <p class="text-white mb-0 d-flex align-items-center p me-2">
-                                                    Nuovo studente
-                                                </p>
+        <!--MAIN SECTION-->
+        <section class="my_main-side overflow-auto">
+            <!--UPPER MAIN-->
+            <div class="my_upper-main">
+                <div class="row p-3">
 
-                                                <!--OFFCANVAS-->
-                                                <button class="btn btn-* fs-5 text-white my_upper-btn mx-1 d-flex align-items-center" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
-                                                    +
-                                                </button>
-                                                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
-                                                <div class="offcanvas-header">
-                                                    <h5 id="offcanvasRightLabel">
-                                                        Inserisci un nuovo studente
-                                                    </h5>
-                                                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                                                </div>
-                                                <div class="offcanvas-body">
-                                                    <form>
-                                                        <div class="d-flex">
-                                                            <div class="mb-3">
-                                                                <label for="exampleInputName" class="form-label">Nome</label>
-                                                                <input type="name" class="form-control" id="exampleInputName" aria-describedby="emailHelp">
-                                                            </div>
-                                                            <div class="mb-3 ms-3">
-                                                                <label for="exampleInputSurname" class="form-label">Cognome</label>
-                                                                <input type="surname" class="form-control" id="exampleInputSurname">
-                                                            </div>
-                                                        </div>
+                    <!--nuovo studente-->
+                    <div class="col-12 d-flex col-md-4 order-md-3">
+                        <p class="text-white mb-0 me-2">
+                            Nuovo studente
+                        </p>
 
-                                                        <div class="d-flex">
-                                                            <div class="mb-3">
-                                                                <label for="exampleInputEmail" class="form-label">
-                                                                    Email
-                                                                </label>
-                                                                <div class="input-group flex-nowrap">
-                                                                    <span class="input-group-text" id="addon-wrapping">@</span>
-                                                                    <input type="text" class="form-control" aria-label="Username" aria-describedby="addon-wrapping">
-                                                                </div>
-                                                            </div>
-                                                            <div class="mb-3 ms-3">
-                                                                <label for="exampleInputPassword" class="form-label">
-                                                                    Password
-                                                                </label>
-                                                                <input type="password" class="form-control" id="exampleInputPassword">
-                                                            </div>
-                                                        </div>
-
-                                                        <div class="d-flex">
-                                                            <div class="mb-3">
-                                                                <label for="exampleInputEmail" class="form-label">
-                                                                    
-                                                                    Indirizzo Email
-                                                                </label>
-                                                                <div class="input-group flex-nowrap">
-                                                                    <span class="input-group-text" id="addon-wrapping">@</span>
-                                                                    <input type="text" class="form-control" aria-label="Username" aria-describedby="addon-wrapping">
-                                                                </div>
-                                                            </div>
-                                                            <div class="mb-3 ms-3">
-                                                                <label for="exampleInputPassword" class="form-label">
-                                                                    Password
-                                                                </label>
-                                                                <input type="password" class="form-control" id="exampleInputPassword">
-                                                            </div>
-                                                        </div>
-
-                                                        <div class="mb-3">
-                                                            <label for="exampleInputAddres" class="form-label">
-                                                                Indirizzo
-                                                            </label>
-                                                            <input type="name" class="form-control" id="exampleInputAddress" aria-describedby="emailHelp">
-                                                        </div>
-
-                                                        <div class="d-flex">
-                                                            <div class="mb-3">
-                                                                <label for="exampleInputCity" class="form-label">
-                                                                    Città
-                                                                </label>
-                                                                <input type="city" class="form-control" id="exampleInputCity" aria-describedby="emailHelp">
-                                                            </div>
-
-                                                            <div class="ms-3">
-                                                                <label for="exampleInputCity" class="form-label">
-                                                                Stato
-                                                                </label>
-                                                                <select class="form-select" id="inputGroupSelect04" aria-label="Example select with button addon">
-                                                                    <option selected>Scegli...</option>
-                                                                    <option value="1">One</option>
-                                                                    <option value="2">Two</option>
-                                                                    <option value="3">Three</option>
-                                                                </select>
-                                                            </div>
-
-                                                            <div class="mb-3 ms-1 w-25">
-                                                                <label for="exampleInputCity" class="form-label">
-                                                                    CAP
-                                                                </label>
-                                                                <input type="city" class="form-control" id="exampleInputCity" aria-describedby="emailHelp">
-                                                            </div>
-                                    
-                                                        </div>
-
-                                                        <label for="exampleInputCity" class="form-label d-block">
-                                                            Foto
-                                                        </label>
-                                                        <div class="input-group mb-5">
-
-                                                            <input type="file" class="form-control" id="inputGroupFile02">
-                                                        </div>  
-                                                        
-                                                        <div class="mb-3 form-check">
-                                                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                                            <label class="form-check-label" for="exampleCheck1">
-                                                                Seleziona per proseguire
-                                                            </label>
-                                                        </div>
-                                                        <div class="d-flex">
-                                                            <button type="submit" class="btn btn-primary">
-                                                                Salva
-                                                            </button>
-                                                            <button type="button" class="btn btn-warning ms-2">
-                                                                Svuota
-                                                            </button>
-                                                        </div>
-                                                        
-                                                    </form>
-                                                </div>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="col-12 col-md-4 mb-3 order-md-1">
-                                            <div class="d-flex align-items-center">
-                                                <h3 class="text-white me-2">
-                                                    Boolean
-                                                </h3>
-                                                <span class="badge rounded-pill bg-* my_blue-pillow">
-                                                    Piano blaze
-                                                </span>
-                                            </div>
-                                            <div>
-                                                <span class="badge rounded-pill bg-* my_blue-pillow">
-                                                    3 app
-                                                </span>
-                                                <span class="text-white">
-                                                    >>
-                                                </span>
-                                                <span class="badge rounded-pill bg-* my_blue-pillow">
-                                                    +
-                                                </span>
-                                            </div>
-                                        </div>
-
-                                        <div class="col-12 text-white col-md-4 order-md-2">
-                                            <p class="mb-0">
-                                                Studenti online negli ultimi 30 minuti
-                                            </p>
-                                            <p class="fs-3 mb-0">
-                                                125
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
+                        <!--OFFCANVAS-->
+                        <button class="btn btn-* fs-5 text-white my_upper-btn mx-1 d-flex align-items-center" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                            +
+                        </button>
+                        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                            <div class="offcanvas-header">
+                                <h5 id="offcanvasRightLabel">
+                                    Inserisci un nuovo studente
+                                </h5>
+                                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                             </div>
-
-                            <div class="col-12">
-                                <div class="row flex-column">
-
-                                    <!--PROSSIME CLASSI-->
-                                    <div class="row m-auto">
-                                        <div class="col-12 mb-3 col-lg-9">
-                                            <div class="card">
-                                                <div class="card-header">
-                                                    <h2>
-                                                        Prossime classi
-                                                    </h2>
-                                                </div>
-                                                <table class="table">
-                                                    <thead>
-                                                    <tr>
-                                                        <th scope="col">
-                                                            Nome
-                                                        </th>
-                                                        <th class="" scope="col">
-                                                            Data inizio
-                                                        </th>
-                                                        <th class="" scope="col">
-                                                            ROI
-                                                        </th>
-                                                        <th scope="col">
-                                                            Stato
-                                                        </th>
-                                                        <th scope="col">
-                                                            Azioni
-                                                        </th>
-                                                    </tr>
-                                                    </thead>
-                                                    <tbody>
-                                                    <tr>
-                                                        <td>
-                                                            <img class="my_class-logo" src="img/class-avatar.jpg" alt="Class avatar logo">
-                                                            Classe 75
-                                                        </td>
-                                                        <td class="">
-                                                            15 Feb 2021
-                                                        </td>
-                                                        <td class="">
-                                                            20%
-                                                        </td>
-                                                        <td>
-                                                            <span class="bg-success text-white p-1 rounded">
-                                                                Done
-                                                            </span> 
-                                                        </td>
-                                                        <td>
-                                                            <div class="d-flex">
-                                                                <i class="fa-solid fa-pen my_pen-icon" style="color: #6c757d;"></i>
-                                                                <i class="fa-solid fa-trash my_trash-icon ms-1" style="color: #6c757d;"></i>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>
-                                                            <img class="my_class-logo" src="img/class-avatar.jpg" alt="">
-                                                            Classe 76
-                                                        </td>
-                                                        <td class="">
-                                                            16 Feb 2021
-                                                        </td>
-                                                        <td class="">
-                                                            20%
-                                                        </td>
-                                                        <td>
-                                                            <span class="bg-success text-white p-1 rounded">
-                                                                Done
-                                                            </span> 
-                                                        </td>
-                                                        <td>
-                                                            <div class="d-flex">
-                                                                <i class="fa-solid fa-pen my_pen-icon" style="color: #6c757d;"></i>
-                                                                <i class="fa-solid fa-trash my_trash-icon ms-1" style="color: #6c757d;"></i>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>
-                                                            <img class="my_class-logo" src="img/class-avatar.jpg" alt="">
-                                                            Classe 77
-                                                        </td>
-                                                        <td class="">
-                                                            17 Feb 2021
-                                                        </td>
-                                                        <td class="">
-                                                            20%
-                                                        </td>
-                                                        <td>
-                                                            <span class="bg-warning text-white p-1 rounded">
-                                                                process
-                                                            </span>
-                                                        </td>
-                                                        <td>
-                                                            <div class="d-flex">
-                                                                <i class="fa-solid fa-pen my_pen-icon" style="color: #6c757d;"></i>
-                                                                <i class="fa-solid fa-trash my_trash-icon ms-1" style="color: #6c757d;"></i>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>
-                                                            <img class="my_class-logo" src="img/class-avatar.jpg" alt="">
-                                                            Classe 78
-                                                        </td>
-                                                        <td class="">
-                                                            18 Feb 2021
-                                                        </td>
-                                                        <td class="">
-                                                            20%
-                                                        </td>
-                                                        <td>
-                                                            <span class="bg-success text-white p-1 rounded">
-                                                                Done
-                                                            </span> 
-                                                        </td>
-                                                        <td>
-                                                            <div class="d-flex">
-                                                                <i class="fa-solid fa-pen my_pen-icon" style="color: #6c757d;"></i>
-                                                                <i class="fa-solid fa-trash my_trash-icon ms-1" style="color: #6c757d;"></i>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>
-                                                            <img class="my_class-logo" src="img/class-avatar.jpg" alt="">
-                                                            Classe 79
-                                                        </td>
-                                                        <td class="">
-                                                            19 Feb 2021
-                                                        </td>
-                                                        <td class="">
-                                                            20%
-                                                        </td>
-                                                        <td>
-                                                            <span class="bg-danger text-white p-1 rounded">
-                                                                failed
-                                                            </span>
-                                                        </td>
-                                                        <td>
-                                                            <div class="d-flex">
-                                                                <i class="fa-solid fa-pen my_pen-icon" style="color: #6c757d;"></i>
-                                                                <i class="fa-solid fa-trash my_trash-icon ms-1" style="color: #6c757d;"></i>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>
-                                                            <img class="my_class-logo" src="img/class-avatar.jpg" alt="">
-                                                            Classe 80
-                                                        </td>
-                                                        <td class="">
-                                                            20 Feb 2021
-                                                        </td>
-                                                        <td class="">
-                                                            20%
-                                                        </td>
-                                                        <td>
-                                                            <span class="bg-success text-white p-1 rounded">
-                                                                Done
-                                                            </span> 
-                                                        </td>
-                                                        <td>
-                                                            <div class="d-flex">
-                                                                <i class="fa-solid fa-pen my_pen-icon" style="color: #6c757d;"></i>
-                                                                <i class="fa-solid fa-trash my_trash-icon ms-1" style="color: #6c757d;"></i>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>
-                                                            <img class="my_class-logo" src="img/class-avatar.jpg" alt="">
-                                                            Classe 81
-                                                        </td>
-                                                        <td class="">
-                                                            21 Feb 2021
-                                                        </td>
-                                                        <td class="">
-                                                            20%
-                                                        </td>
-                                                        <td>
-                                                            <span class="bg-danger text-white p-1 rounded">
-                                                                failed
-                                                            </span>
-                                                        </td>
-                                                        <td>
-                                                            <div class="d-flex">
-                                                                <i class="fa-solid fa-pen my_pen-icon" style="color: #6c757d;"></i>
-                                                                <i class="fa-solid fa-trash my_trash-icon ms-1" style="color: #6c757d;"></i>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>
-                                                            <img class="my_class-logo" src="img/class-avatar.jpg" alt="">
-                                                            Classe 82
-                                                        </td>
-                                                        <td class="">
-                                                            22 Feb 2021
-                                                        </td>
-                                                        <td class="">
-                                                            20%
-                                                        </td>
-                                                        <td>
-                                                            <span class="bg-success text-white p-1 rounded">
-                                                                Done
-                                                            </span> 
-                                                        </td>
-                                                        <td>
-                                                            <div class="d-flex">
-                                                                <i class="fa-solid fa-pen my_pen-icon" style="color: #6c757d;"></i>
-                                                                <i class="fa-solid fa-trash my_trash-icon ms-1" style="color: #6c757d;"></i>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-                                                    </tbody>
-                                                </table>
-                                            </div>                          
+                            <div class="offcanvas-body">
+                                <form>
+                                    <div class="d-flex">
+                                        <div class="mb-3">
+                                            <label for="exampleInputName" class="form-label">Nome</label>
+                                            <input type="name" class="form-control" id="exampleInputName" aria-describedby="emailHelp">
                                         </div>
-
-                                        <!--FAQ-->
-                                        <div class="card col-12 mb-3 col-lg-9">
-                                            <div class="row">
-                                                <div class="card-header">
-                                                    <h4>
-                                                        F.A.Q.
-                                                    </h4>
-                                                    
-                                                </div>
-                                                <div class="accordion my-2" id="accordionExample">
-                                                    <div class="accordion-item">
-                                                        <h2 class="accordion-header" id="headingOne">
-                                                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                                            Come aggiungere un nuovo studente?
-                                                        </button>
-                                                    </h2>
-                                                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                                                        <div class="accordion-body">
-                                                            <p>
-                                                                Clicca sul + in alto nella sezione blu.
-                                                            </p>
-                                                        </div>
-                                                    </div>
-                                                    </div>
-                                                    <div class="accordion-item">
-                                                        <h2 class="accordion-header" id="headingTwo">
-                                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                                            Come posso accedere alle informazioni del mio account?
-                                                        </button>
-                                                        </h2>
-                                                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                                                        <div class="accordion-body">
-                                                            <p>
-                                                                Clicca sull'icona della campanella.
-                                                            </p>
-                                                        </div>
-                                                    </div>
-                                                    </div>
-                                                    <div class="accordion-item">
-                                                        <h2 class="accordion-header" id="headingThree">
-                                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                                            Come posso usare questa dashboard da mobile?
-                                                        </button>
-                                                        </h2>
-                                                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                                                        <div class="accordion-body">
-                                                            <p>
-                                                                Clicca sull'icona della campanella.
-                                                            </p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                </div>
-                                            </div>
-                                                
+                                        <div class="mb-3 ms-3">
+                                            <label for="exampleInputSurname" class="form-label">Cognome</label>
+                                            <input type="surname" class="form-control" id="exampleInputSurname">
                                         </div>
                                     </div>
-                                </div>
 
-
-                                    <!--TODO-->
-                                    <div class="row m-auto flex-column">
-                                        <div class="card col-12 mb-3 col-lg-9">
-                                        <div class="card-header">
-                                            <h4>
-                                                Todo
-                                            </h4>
-                                        </div>
-                                        <ul class="list-group mt-2">
-                                            <li class="list-group-item">
-                                                <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
-                                                Kickoff nuove classi 
-                                            </li>
-                                            <li class="list-group-item">
-                                                <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
-                                                Lezioni di Bootstrap 5 in classe #75 
-                                            </li>
-                                            <li class="list-group-item">
-                                                <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
-                                                Controllare username github studenti
-                                            </li>
-                                        </ul>
+                                    <div class="d-flex">
+                                        <div class="mb-3">
+                                            <label for="exampleInputEmail" class="form-label">
+                                            Email
+                                            </label>
+                                            <div class="input-group flex-nowrap">
+                                                <span class="input-group-text" id="addon-wrapping">@</span>
+                                                <input type="text" class="form-control" aria-label="Username" aria-describedby="addon-wrapping">
+                                            </div>
                                         </div>
 
-                                        <!--STATS-->
-                                        <div class="card col-12 col-lg-3">
-                                            <img src="img/stats.jpeg" class="card-img-top" alt="Stats image">
-                                            <div class="card-body">
-                                                <h5 class="card-title">
-                                                    Utenti attivi
-                                                </h5>
-                                                <p class="card-text">
-                                                    Lista degli utenti attivi in piattaforma nell'ultimo mese
-                                                </p>
-                                            </div>
-                                            <ul class="list-group list-group-flush">
-                                                <li class="list-group-item">
-                                                    Gennaio: 1200
-                                                </li>
-                                                <li class="list-group-item">
-                                                    Febbraio: 800
-                                                </li>
-                                                <li class="list-group-item">
-                                                    Marzo: 1500
-                                                </li>
-                                            </ul>
-                                            <div class="card-body">
-                                                <a href="#" class="card-link">
-                                                    Visualizza report approfondito
-                                                </a>
-                                            </div>
+                                        <div class="mb-3 ms-3">
+                                            <label for="exampleInputPassword" class="form-label">
+                                            Password
+                                            </label>
+                                            <input type="password" class="form-control" id="exampleInputPassword">
                                         </div>
                                     </div>
+
+                                    <div class="d-flex">
+                                        <div class="mb-3">
+                                            <label for="exampleInputEmail" class="form-label">
+                                                Indirizzo Email
+                                            </label>
+                                            <div class="input-group flex-nowrap">
+                                                <span class="input-group-text" id="addon-wrapping">@</span>
+                                                <input type="text" class="form-control" aria-label="Username" aria-describedby="addon-wrapping">
+                                            </div>
+                                        </div>
+
+                                        <div class="mb-3 ms-3">
+                                            <label for="exampleInputPassword" class="form-label">
+                                            Password
+                                            </label>
+                                            <input type="password" class="form-control" id="exampleInputPassword">
+                                        </div>
+                                    </div>
+
+                                    <div class="mb-3">
+                                        <label for="exampleInputAddres" class="form-label">
+                                            Indirizzo
+                                        </label>
+                                        <input type="name" class="form-control" id="exampleInputAddress" aria-describedby="emailHelp">
+                                    </div>
+
+                                    <div class="d-flex">
+                                        <div class="mb-3">
+                                            <label for="exampleInputCity" class="form-label">
+                                                Città
+                                            </label>
+                                            <input type="city" class="form-control" id="exampleInputCity" aria-describedby="emailHelp">
+                                        </div>
+
+                                        <div class="ms-3">
+                                            <label for="exampleInputCity" class="form-label">
+                                            Stato
+                                            </label>
+                                            <select class="form-select" id="inputGroupSelect04" aria-label="Example select with button addon">
+                                                <option selected>Scegli...</option>
+                                                <option value="1">One</option>
+                                                <option value="2">Two</option>
+                                                <option value="3">Three</option>
+                                            </select>
+                                        </div>
+
+                                        <div class="mb-3 ms-1 w-25">
+                                            <label for="exampleInputCity" class="form-label">
+                                                CAP
+                                            </label>
+                                            <input type="city" class="form-control" id="exampleInputCity" aria-describedby="emailHelp">
+                                        </div>
+                                    </div>
+
+                                    <label for="exampleInputCity" class="form-label d-block">
+                                        Foto
+                                    </label>
+                                    <div class="input-group mb-5">
+
+                                        <input type="file" class="form-control" id="inputGroupFile02">
+                                    </div>  
+                                
+                                    <div class="mb-3 form-check">
+                                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                        <label class="form-check-label" for="exampleCheck1">
+                                            Seleziona per proseguire
+                                        </label>
+                                    </div>
+                                    <div class="d-flex">
+                                        <button type="submit" class="btn btn-primary">
+                                            Salva
+                                        </button>
+                                        <button type="button" class="btn btn-warning ms-2">
+                                            Svuota
+                                        </button>
+                                    </div>
+                                </form>
                             </div>
                         </div>
                     </div>
-        
+
+                    <!-- boolean piano blaze-->
+                    <div class="col-12 col-md-4 mb-3 order-md-1">
+                        <div class="d-flex align-items-center">
+                            <h3 class="text-white me-2">
+                                Boolean
+                            </h3>
+                            <span class="badge rounded-pill bg-* my_blue-pillow">
+                                Piano blaze
+                            </span>
+                        </div>
+                        <div>
+                            <span class="badge rounded-pill bg-* my_blue-pillow">
+                                3 app
+                            </span>
+                            <span class="text-white">
+                                >>
+                            </span>
+                            <span class="badge rounded-pill bg-* my_blue-pillow">
+                                +
+                            </span>
+                        </div>
+                    </div>
+
+                    <!-- studenti online-->
+                    <div class="col-12 text-white col-md-4 order-md-2">
+                        <p class="mb-0">
+                            Studenti online negli ultimi 30 minuti
+                        </p>
+                        <p class="fs-3 mb-0">
+                            125
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+
+            <div>
+                
+            </div>
+        </section>
     </main>
 </body>
 </html>
