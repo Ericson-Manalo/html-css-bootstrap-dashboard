@@ -37,8 +37,8 @@ body{
 }
 
 div.my_sidebar{
-    background-image: url("/img/sidebar-bg.png");
-    background-color: blue;
+    background: url("/img/sidebar-bg.png");
+    background-color: #051e34;
     height: calc(100vh - 70px);
 }
 
